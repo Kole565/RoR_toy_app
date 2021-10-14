@@ -35,8 +35,8 @@ end
 
 group :production do
   # Use postgraSQL for Heroku
-  gem "pg", "0.17.1"
-  gem "rails_12factor", "0.0.2"
+  gem "pg", ">= 0.17.1"
+  gem "rails_12factor", ">= 0.0.2"
 end
 
 group :development do
